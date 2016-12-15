@@ -10,10 +10,10 @@ License: GPLv2 or later
 */
 
 // Register and insert javascript
-function insertScript() {
+function lnb_insert_svg_script() {
 	wp_register_script('convert-img-svg', plugins_url('/convert-img-svg/script.min.js'), '', '', 'true');
 	wp_enqueue_script('convert-img-svg');
 }
-add_action('wp_enqueue_scripts', 'insertScript');	
+add_action('wp_enqueue_scripts', 'lnb_insert_svg_script');	
 
 ?>
