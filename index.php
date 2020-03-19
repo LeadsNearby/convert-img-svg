@@ -3,7 +3,7 @@
 /* Plugin Name: Convert IMG to SVG
 Plugin URI: http://leadsnearby.com/
 Description: Convert svgs linked in <img> tags to inline svgs. Images MUST have the class "svg".
-Version: 1.0
+Version: 1.1.0
 Author: Leads Nearby
 Author URI: http://leadsnearby.com/
 License: GPLv2 or later
